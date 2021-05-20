@@ -1,0 +1,16 @@
+addBranch Delhi
+addVehicle  Delhi Car ABC-1234 15
+addVehicle  Delhi Car ABC-123 10
+addVehicle  Delhi Car ABC-123 10
+addVehicle  Delhi Car ABC-1234 15
+addVehicle  Delhi Bike DEF-123 20
+addVehicle  Delhi Bike DEF-456 10
+addVehicle  Delhi Truck ABC-123 10
+bookSlot Car 4
+bookSlot Car 4
+bookSlot Car 4
+bookSlot Car 5
+displayBranch Delhi  6
+displayBranch Delhi  5
+displayBranch Delhi  4
+exit

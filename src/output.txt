@@ -1,0 +1,26 @@
+Branch added.
+Added vehicle 
+Added vehicle 
+Added vehicle 
+Vehicle already exists
+Added vehicle 
+Vehicle already exists
+Added vehicle 
+Added vehicle 
+Wrong Vehicle. Vehicle type enter again
+Booked Car with registration number ABC-123 for rate of 10
+Booked Car with registration number ABC-1234 for rate of 15
+No vehicle found
+Booked Car with registration number ABC-123 for rate of 10
+Displaying branch data for each branch below
+VehicleType: Car Registration Number ABC-1234 Rate: 15
+VehicleType: Bike Registration Number DEF-456 Rate: 10
+VehicleType: Car Registration Number ABC-123 Rate: 10
+VehicleType: Bike Registration Number DEF-123 Rate: 20
+Displaying branch data for each branch below
+VehicleType: Car Registration Number ABC-1234 Rate: 15
+VehicleType: Bike Registration Number DEF-456 Rate: 10
+VehicleType: Bike Registration Number DEF-123 Rate: 20
+Displaying branch data for each branch below
+VehicleType: Bike Registration Number DEF-456 Rate: 10
+VehicleType: Bike Registration Number DEF-123 Rate: 20

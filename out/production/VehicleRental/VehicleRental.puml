@@ -1,0 +1,54 @@
+@startuml
+
+class BookingCenterService {
+    BookingCenter bookingCenter
+    bool addBranch(String branchName)
+    bool addVehicle(String branchName, Vehicle vehicle)
+    Vehicle bookSlot(String vehicleType)
+    void displayBranch(String branchName, int timeSlot)
+}
+
+class BookingCenter {
+    bookingCenterName: String
+    branches: Vector<Branch>
+}
+
+class Demo {
+}
+
+class Branch {
+    vehicles: Vector<Vehicle>
+    branchName: string
+    bool addVehicle(Vehicle vehicle)
+    Vehicle bookSlot(String vehicleType)
+    void displayBranch(int timeSlot)
+}
+
+interface Vehicle {
+    slots: bool[24]
+    branch: Branch
+    registrationNumber: String
+    rate: int
+    vehicleType: String
+}
+
+class Car implements Vehicle {
+
+}
+
+class Truck implements Vehicle {
+
+}
+
+class Bike implements Vehicle {
+
+}
+
+
+BookingCenterService *-- BookingCenter
+BookingCenter "1" *-- "many" Branch: contains
+Branch "1" *-- "many" Vehicle: contains
+BookingCenterService - Demo: calls <
+
+
+@enduml
